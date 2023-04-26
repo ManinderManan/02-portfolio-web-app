@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+/* Ensures all of the content is placed to the right of the border */
+.margin-left {
+    margin-left: 33vw;
+    position:relative;
+}
+
+.header-title {
+    font-family: var(--font1);
+}

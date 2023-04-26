@@ -1,0 +1,9 @@
+:root {
+    --light: white; 
+    --soft: #E7E6E2;
+    --mid: #4b4846;
+    --dark: black;
+    --accent: #377768;
+    --font1: 'Arial narrow', sans-serif;
+    --font2: 'Monaco' Courier, monospace;
+}
