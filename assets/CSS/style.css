@@ -155,7 +155,7 @@ header {
 };
 
 /* CSS for Mobile portion */
-@media screen and (max-width: -webkit-full-screen) {
+@media screen and (max-width: 768px) {
     .mobile {
         display: flex;
         flex-direction: column;

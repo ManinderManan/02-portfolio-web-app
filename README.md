@@ -12,10 +12,13 @@ A portfolion website where potential employers will be able to view all of examp
 
 ## Deployment
 
-[Maninder Singh Manan | Portfolio]()
+[Maninder Singh Manan | Portfolio](https://manindermanan.github.io/02-portfolio-web-app/)
+
+## License
+
 MIT License
 
-Copyright (c) 2023 ManinderManan
+Copyright (c) 2023 Maninder Manan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
