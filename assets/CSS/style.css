@@ -152,7 +152,7 @@ header {
 
 .web-link:hover {
     color: var(--accent);
-}
+};
 
 /* CSS for Mobile portion */
 @media screen and (max-width: -webkit-full-screen) {
