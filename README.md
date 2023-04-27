@@ -8,7 +8,7 @@ A portfolion website where potential employers will be able to view all of examp
 
 ## Preview
 
-![website view of portfolio](./assets/images/portfolio-demo.png)
+![portfolio-demo](./assets/images/portfolio-demo.png)
 
 ## Deployment
 
