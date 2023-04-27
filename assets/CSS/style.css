@@ -10,4 +10,244 @@ body{
 
 .header-title {
     font-family: var(--font1);
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+/* Section Titles */
+.title-text {
+    font-family: var(--font1);
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+.page-text {
+    margin-top: .5 rem;
+    color: car(--mid);
+    font-family: var(--font1);
+}
+
+.pro {
+    margin-left: -36%;
+    color: var(--light);
+    padding-top: 2rem;
+}
+
+.secondary-title {
+    font-size: larger;
+    font-family: (var(--font2));
+    margin-bottom: .5rem;
+}
+
+.web-link {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.grayscale {
+    filter: grayscale(1);
+}
+
+.header-line {
+    border-bottom: solid var(--dark) 2px;
+    width: 70vw;
+}
+
+.lg-scale {
+    width: 15rem;
+}
+
+.sm-scale {
+    width: 10rem;
+    height: 13rem;
+    border: solid var(--soft) 1px;
+}
+
+/* The Blocks */
+
+.web-view-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.web-intro-container {
+    align-items: center;
+    margin-top: -10vh;
+    display: flex;
+    height: 100vh;
+}
+
+/* Keeps background images in place */
+.side-img {
+    position: fixed;
+    top: 0px;
+    width: 33%;
+    height: 100vh;
+}
+
+/* Title bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.selfie {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-left: -15%;
+}
+
+.about-colum {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.web-nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.projectA {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: left;
+    margin-left: 2rem;
+}
+
+.projectB {
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.text-container {
+    width: 40%;
+    padding: 1rem;
+}
+
+.contact-box {
+    height: 50vw;
+    flex-direction: column;
+    display: flex;
+    align-items: end;
+    text-align: end;
+    margin-right: 2rem;
+    justify-content: space-evenly;
+}
+
+.mobile {
+    display: none;
+}
+
+.grayscale:hover {
+    filter: grayscale(0);
+}
+
+.web-link:hover {
+    color: var(--accent);
+}
+
+/* CSS for Mobile portion */
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .m-nav-link {
+        color: var(--light);
+        text-decoration: none;
+    }
+
+    b {
+        color: var(accent);
+    }
+
+    .m-selfie {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+    }
+
+    .m-center {
+        justify-content: center;
+        margin-top: -10vh;
+    }
+
+    .m-lg-scale {
+        width: 50vw;
+    }
+
+    .m-sm-scale {
+        width: 25%;
+        border: solid var(--soft) 1px;
+    }
+
+    .m-link {
+        color: var(--dark);
+        text-decoration: none;
+    }
+
+    .m-header-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+        background-image: url("../images/side_pane_color.png");
+        background-position: -10px;
+    }
+
+    .m-nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        z-index: 10;
+        color: var(--light);
+    }
+
+    .m-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .m-containerB {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .m-contact-box {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 75%;
+        align-items: end;
+        text-align: end;
+    }
+
+    .web {
+        display: none;
+    }
+
+    .m-nav-link:hover {
+        color: var(--dark);
+    }
+
+    .m-link:hover {
+        color: var(--accent);
+    }
 }
