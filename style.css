@@ -126,7 +126,12 @@ header {
     padding-left: 2rem;
     align-items: center;
 }
-
+.projectC {
+    display: flex;
+    justify-content: left;
+    padding-left: 2rem;
+    align-items: center;
+}
 .text-container {
     width: 40%;
     padding: 1rem;
